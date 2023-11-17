@@ -1,0 +1,35 @@
+# general things to ignore
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.asv
+*.so
+*~
+
+# ignore the following directories that exist anywhere in the repository
+**/output
+**/venv
+**/.idea
+**/test_data
+**/gitignore
+**/cache
+**/temp
+**/scratch
+**/old
+**/build
+**/dist
+**/logs
+**/releases
+
+# ignore the following files that exist anywhere in the repository
+*scratch*.py
+*scratch*.m
+*temp*.hdf5
+*temp*.csv
+*temp*.pkl
+*ign_git*
+*.tmp
+*push.sh
